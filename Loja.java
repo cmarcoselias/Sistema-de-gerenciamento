@@ -18,6 +18,11 @@ public class Loja {
 
         // professor quer  tratamento e exessões(try e cash)
 
+        int quantidade = 0;
+        System.out.println("==================\n   CLUTCH STORE  \n================== ");
+        System.out.print("seja bem-vindo!\n");
+        System.out.println("\noque deseja fazer?");
+        String nome;
         String opcao;
         do{
             System.out.println("\n--Escolha uma opção abaixo--\n");
@@ -28,9 +33,19 @@ public class Loja {
             );
             opcao = ler.next();
             switch (opcao) {
+                //cadastro -> Marcos
                 case "1":
                     System.out.println("\n---CADASTRO DE PRODUTOS---");
-                    System.out.println("informe\nNome do tenis\nTamanho\nPreço");
+                    
+                    // limite de cadastros entre 1 e 1000
+                    while (quantidade == 0 || quantidade > 1000) {
+                    System.out.println("informe a qunatidade que será cadastrada ");
+                     quantidade = ler.nextInt();
+                    if (quantidade == 0 || quantidade > 1000) {
+                    System.out.println("quantidade inválida");
+                    continue;
+                    }
+                 }
                     break;
                 case"2":
                     break;

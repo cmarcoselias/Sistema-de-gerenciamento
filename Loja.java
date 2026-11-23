@@ -16,6 +16,8 @@ public class Loja {
         System.out.print("seja bem-vindo! =)\n");
         System.out.println("oque deseja fazer?!");
 
+        // professor quer  tratamento e exessões(try e cash)
+
         String opcao;
         do{
             System.out.println("\n--Escolha uma opção abaixo--\n");

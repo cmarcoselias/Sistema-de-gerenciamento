@@ -1,0 +1,5 @@
+Cadastro do produto: AirRunner (preto, Tam 40), Qtd: 20
+Entrada de 10 unidades no produto: AirRunner
+Venda de 2 unidades do produto: AirRunner
+Cadastro do produto: Street Max (branco, Tam 40), Qtd: 100
+Cadastro do produto: Classic (100, Tam 40), Qtd: 100
